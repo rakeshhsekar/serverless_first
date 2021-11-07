@@ -1,0 +1,19 @@
+{
+  "name": "Mysql_serverless_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "netlify-lambda serve ./src",
+    "build": "netlify-lambda build ./src"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "faunadb": "^2.7.0",
+    "netlify-lambda": "^2.0.15",
+    "webpack": "^5.62.1"
+  }
+}
